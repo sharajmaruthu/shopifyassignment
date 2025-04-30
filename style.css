@@ -1,0 +1,85 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.size-btn.active {
+  background-color: #121212;
+  color: white;
+  font-weight: 600;
+}
+
+.mobile-menu a {
+  padding: 10px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.mobile-menu a:hover {
+  background-color: #f9f9f9;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+.scroll-smooth::-webkit-scrollbar {
+  height: 8px;
+}
+.scroll-smooth::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.nav-link,
+.icon-hover svg {
+  transition: color 0.3s ease;
+}
+.nav-link:hover,
+.icon-hover:hover svg {
+  color: #facc15;
+}
+
+.btn-size-chart {
+  color: #facc15;
+  border-color: #facc15;
+  transition: all 0.3s ease;
+}
+.btn-size-chart:hover {
+  background-color: #facc15;
+  color: white;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+.action-btn {
+  border: 2px solid #facc15;
+  background-color: white;
+  color: #121212;
+  font-weight: 600;
+}
+.action-btn:hover {
+  background-color: #facc15;
+  color: white;
+}
+.action-btn:active {
+  transform: scale(0.95);
+}
